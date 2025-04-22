@@ -4,8 +4,8 @@ Proyek ini bertujuan untuk membangun model klasifikasi gambar rumah adat Indones
 
 ## Datasets
 
-from kaggle : https://www.kaggle.com/datasets/rariffirmansah/rumah-adat/data
-from drive : https://drive.google.com/file/d/1bTGNfznwa4TDGrdPvSfqwcLnucDAN8a_/view?usp=sharing
+- from kaggle : https://www.kaggle.com/datasets/rariffirmansah/rumah-adat/data
+- from drive : https://drive.google.com/file/d/1bTGNfznwa4TDGrdPvSfqwcLnucDAN8a_/view?usp=sharing
 
 ## 🔍 Deskripsi Proyek
 
@@ -27,14 +27,3 @@ Model dikembangkan dengan pendekatan:
 - Optimizer: `Adamax`
 - Loss Function: `categorical_crossentropy`
 
-## 🧪 Preprocessing dan Augmentasi
-
-```python
-ImageDataGenerator(
-    rescale=1./255,
-    rotation_range=20,
-    width_shift_range=0.2,
-    height_shift_range=0.2,
-    zoom_range=0.2,
-    horizontal_flip=True
-)
